@@ -19,6 +19,6 @@ const amor="meu primeiro amor"
 alert(amor)
 alert(amor)
 letamor2 ="meu segundo amor"
-var antigao  = "Nunca usar essa poioca"
+var antigao = "Nunca usar essa poioca"
 
 
