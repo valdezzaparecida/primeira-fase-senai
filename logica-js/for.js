@@ -29,8 +29,8 @@
 // }
 
 
-let frutas = ["maca","morango","banana","pessego","caju",]
+// let frutas = ["maca","morango","banana","pessego","caju",]
 
-for(let i = 0;i<frutas.length;i++){
-    console.log("frutas:",frutas[i])
-}
+// for(let i = 0;i<frutas.length;i++){
+//     console.log("frutas:",frutas[i])
+// }

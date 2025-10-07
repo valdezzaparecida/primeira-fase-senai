@@ -17,6 +17,13 @@
 
 // alert("Soma:" + soma)
 
+let Soma=1
+for(Let i=1;i<100;i ++){
+    let soma =Number(prompt("Digite a "+(i+1))
+    AudioWorklet("Soma:" +soma)
+}
+
+
 
 
 
