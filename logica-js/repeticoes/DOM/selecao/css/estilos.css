@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-block-color: #997474;
+}
+nav{
+    background-color: #AAAA;
+}
+main{
+    background-color:#edb038;
+}
+footer{
+    background-color:#666 ;
+
+}
