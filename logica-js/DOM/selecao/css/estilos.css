@@ -3,7 +3,8 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-dody{
+
+dody {
     background: #EEE;
 }
 
@@ -20,8 +21,10 @@ header {
 a {
     color: #FFF;
 }
-.container{
-     display:flex;
+
+.container {
+    display: flex;
+   
 }
 
 nav {
@@ -37,15 +40,14 @@ nav {
         li {
             a {
                 color: #b43737;
-                text-decoration:none ;
+                text-decoration: none;
                 background: #fff;
                 padding: 5px;
                 transition: all ease-in-out 0.3s;
 
-                &:hover{
+                &:hover {
                     color: #FFF;
-                    background:#b43737
-
+                    background: #b43737
                 }
             }
         }
@@ -57,12 +59,50 @@ nav {
     list-style: nome;
     justify-content:space-around ;
 } */
- main {
+main {
     background-color: #CCC;
-    section{
+
+    section {
+
         padding: 20px;
-        &#esportes{
-            
+
+        h2,p{
+            margin-bottom: 20px;
+
+
+        }
+        p{
+            line-height: 1.5;
+        }
+
+        h3,h4{
+            margin-bottom:15px ;
+
+        }
+        article{
+            padding: 10px;
+
+        }
+        
+        
+
+    
+    
+
+        &#esportes {
+
+            P {
+                text-align:justify;
+            }
+
+        }
+        &#economia{
+            .container{
+                flex-wrap:wrap ;
+            }
+            article{
+                width: 300px;
+            }
         }
     }
 }
