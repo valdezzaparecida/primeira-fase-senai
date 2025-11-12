@@ -109,4 +109,28 @@ main {
 
 footer {
     background-color: #666;
+    padding: 15px 0;
+    color: #FFF;
+    text-align: center;
+}
+/*arquivo servoços*/
+.show{
+    display: block;
+}
+.hide{
+display:none;
+}
+button{
+    padding:10px;
+    border:none;
+    cursor:pointer;
+    color: #FFF;
+    &#show{
+        background:#0c55de;
+    }
+&#hide{
+
+   background:#F00; 
+}
+
 }
