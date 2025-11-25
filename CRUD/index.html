@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <h1>CRUDino</h1>
+    <div id="formContainer">
+        <label for="">Nome</label>
+        <input id="inputNome" type="text">
+        <label for="">Altura</label>
+        <input id="inputAltura" type="number">
+        <button onclick="cadastrarDino()">Cadastrar</button>
+    </div>
+
+    <div id="painelDinos">
+        <h2>Dinos Cadastrados</h2>
+        <button onclick="mostrarTodosDinos()">Mostrar tudo</button>
+        <div id="listaDinos">
+            <!-- Dinossauros cadastrados aparecerão aqui -->
+        </div>
+    </div>
+    <div id="dino"></div>
+    <img src="imgs/smig.jpg" alt="">
+    <script src="script.js"></script>
+</body>
+</html>
